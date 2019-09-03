@@ -1,0 +1,96 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: 'fe80:0:0:0:14e4:99dd:ddd:a8f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "febf756bca470459",
+        "parentUid" : "84e37e22ce36b217861473da302ddefa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567181931319,
+          "stop" : 1567181931321,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84e37e22ce36b217861473da302ddefa"
+    }, {
+      "name" : "java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43319\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2600:1700:b011:aaa0:0:0:0:600%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: SafariDriver",
+      "children" : [ {
+        "name" : "beforeClass",
+        "uid" : "37e31c6806ed14c9",
+        "parentUid" : "8c10f766678db8e991f0759cf763e183",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567218708263,
+          "stop" : 1567218708264,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c10f766678db8e991f0759cf763e183"
+    }, {
+      "name" : "Cannot find elements when the id is null.",
+      "children" : [ {
+        "name" : "SignUpTest",
+        "uid" : "c8cf08f3ce7a7366",
+        "parentUid" : "94063711a29b877532c8abc9dfbd640f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567226996065,
+          "stop" : 1567226996076,
+          "duration" : 11
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94063711a29b877532c8abc9dfbd640f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Passed",
+    "children" : [ {
+      "children" : [ {
+        "name" : "Confirmation Page Validating",
+        "uid" : "3b043e303a61475a",
+        "parentUid" : "1a6bc8532ed3e855fc832ee4e96b0764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567218813389,
+          "stop" : 1567218817051,
+          "duration" : 3662
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a6bc8532ed3e855fc832ee4e96b0764"
+    } ],
+    "uid" : "7e1dff7028ad53fad7abb983ae6cc28d"
+  }, {
+    "name" : "Ignored",
+    "children" : [ {
+      "name" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+      "children" : [ {
+        "name" : "ConfirmationTest",
+        "uid" : "4431749e7e389ccf",
+        "parentUid" : "8370707235c394da89cdd3b86afffc12",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567226996264,
+          "stop" : 1567226996264,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8370707235c394da89cdd3b86afffc12"
+    } ],
+    "uid" : "8b2e704102c27d9566af34b216dd0534"
+  } ]
+}

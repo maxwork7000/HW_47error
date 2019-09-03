@@ -1,0 +1,223 @@
+{
+  "uid" : "fafcad98c07c3265",
+  "name" : "ConfirmationTest",
+  "fullName" : "core.ExtentReportsTest.ConfirmationTest",
+  "historyId" : "ed09dcfe5260b6528b061752f766a0cb",
+  "time" : {
+    "start" : 1567181593688,
+    "stop" : 1567181593688,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\n\tat org.testng.TestRunner.run(TestRunner.java:591)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\n\tat org.testng.TestNG.run(TestNG.java:1000)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1567181589431,
+      "stop" : 1567181592398,
+      "duration" : 2967
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "startReport",
+    "time" : {
+      "start" : 1567181589297,
+      "stop" : 1567181589417,
+      "duration" : 120
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1567181593690,
+      "stop" : 1567181593761,
+      "duration" : 71
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "endReport",
+    "time" : {
+      "start" : 1567181593762,
+      "stop" : 1567181594084,
+      "duration" : 322
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.ExtentReportsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.ExtentReportsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ConfirmationTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.ExtentReportsTest"
+  }, {
+    "name" : "host",
+    "value" : "vaulin-macbookpro.roam.corp.google.com"
+  }, {
+    "name" : "thread",
+    "value" : "45778@vaulin-macbookpro.roam.corp.google.com.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b75c6e895dcc787",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1567180994600,
+        "stop" : 1567180994600,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d23c9942b1f749",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1567180145532,
+        "stop" : 1567180145532,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "42b4a4780cc608b0",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@3dddefd8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1567012945933,
+        "stop" : 1567012945933,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "62515dd640717425",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@3dddefd8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1566947993372,
+        "stop" : 1566947993372,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "56204949823e6bd9",
+        "status" : "skipped",
+        "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1567180994600,
+          "stop" : 1567180994600,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "721fea7eb935d81c",
+        "status" : "skipped",
+        "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1567180994600,
+          "stop" : 1567180994600,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b12c65d130215018",
+        "status" : "skipped",
+        "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1567180994600,
+          "stop" : 1567180994600,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c09548cf24edca2a",
+        "status" : "skipped",
+        "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1567180145532,
+          "stop" : 1567180145532,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4c361d4cebc7739c",
+        "status" : "skipped",
+        "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@3dddefd8] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1567012945933,
+          "stop" : 1567012945933,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fafcad98c07c3265.json",
+  "parameterValues" : [ ]
+}

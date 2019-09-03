@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","core.AllureReportTest.ConfirmationTest","3662","Confirmation: Elemets Validation"
+"broken","core.ExtentReportsTest.SignUpTest","11",""
+"broken","core.ExtentReportsTest.beforeClass","1",""
+"broken","core.AllureReportTest.setUp","2",""
+"skipped","core.ExtentReportsTest.ConfirmationTest","0",""
+"passed","core.AllureReportTest.SignUpTest","11027","SignUp Page: Elements Validation"

@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "setUp",
+    "uid" : "e0063b6c7f5f67c6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1567181931319,
+      "stop" : 1567181931321,
+      "duration" : 2
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "beforeClass",
+    "uid" : "61ae5d8fbdceb964",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1567218708263,
+      "stop" : 1567218708264,
+      "duration" : 1
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "SignUp Page Validating",
+    "uid" : "d7e81170dd2ca093",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567218802268,
+      "stop" : 1567218813295,
+      "duration" : 11027
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Confirmation Page Validating",
+    "uid" : "e0f7c09a44111bf9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567218813389,
+      "stop" : 1567218817051,
+      "duration" : 3662
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SignUpTest",
+    "uid" : "de481a486b0027ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1567227082963,
+      "stop" : 1567227082982,
+      "duration" : 19
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "ConfirmationTest",
+    "uid" : "e51a620c26aa0f95",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1567227083202,
+      "stop" : 1567227083202,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

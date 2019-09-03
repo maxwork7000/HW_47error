@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "core.AllureReportTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "e0063b6c7f5f67c6",
+          "parentUid" : "308040dac3bf34d6ced8cdc969387f1b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1567181931319,
+            "stop" : 1567181931321,
+            "duration" : 2
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "SignUp Page Validating",
+          "uid" : "d7e81170dd2ca093",
+          "parentUid" : "308040dac3bf34d6ced8cdc969387f1b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567218802268,
+            "stop" : 1567218813295,
+            "duration" : 11027
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Confirmation Page Validating",
+          "uid" : "e0f7c09a44111bf9",
+          "parentUid" : "308040dac3bf34d6ced8cdc969387f1b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567218813389,
+            "stop" : 1567218817051,
+            "duration" : 3662
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "308040dac3bf34d6ced8cdc969387f1b"
+      }, {
+        "name" : "core.ExtentReportsTest",
+        "children" : [ {
+          "name" : "beforeClass",
+          "uid" : "61ae5d8fbdceb964",
+          "parentUid" : "41796a7ffff2a54efd3c29bf1e6a8e0d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1567218708263,
+            "stop" : 1567218708264,
+            "duration" : 1
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "SignUpTest",
+          "uid" : "de481a486b0027ec",
+          "parentUid" : "41796a7ffff2a54efd3c29bf1e6a8e0d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1567227082963,
+            "stop" : 1567227082982,
+            "duration" : 19
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "ConfirmationTest",
+          "uid" : "e51a620c26aa0f95",
+          "parentUid" : "41796a7ffff2a54efd3c29bf1e6a8e0d",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1567227083202,
+            "stop" : 1567227083202,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "41796a7ffff2a54efd3c29bf1e6a8e0d"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

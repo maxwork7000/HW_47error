@@ -1,0 +1,271 @@
+{
+  "uid" : "22caa5bf4205c3f7",
+  "name" : "Confirmation Page Validating",
+  "fullName" : "core.AllureReportTest.ConfirmationTest",
+  "historyId" : "866f8e658b6a7c28aa580d3973b941a7",
+  "time" : {
+    "start" : 1566948266037,
+    "stop" : 1566948266037,
+    "duration" : 0
+  },
+  "description" : "Confirmation: Elemets Validation",
+  "descriptionHtml" : "<p>Confirmation: Elemets Validation</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Method AllureReportTest.ConfirmationTest()[pri:2, instance:core.AllureReportTest@aec50a1] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method AllureReportTest.ConfirmationTest()[pri:2, instance:core.AllureReportTest@aec50a1] depends on not successfully finished methods\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\n\tat org.testng.TestRunner.run(TestRunner.java:591)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\n\tat org.testng.TestNG.run(TestNG.java:1000)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1566948265696,
+      "stop" : 1566948265832,
+      "duration" : 136
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2620:0:1000:fd45:746f:9895:b72b:cf35%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver",
+    "statusTrace" : "org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2620:0:1000:fd45:746f:9895:b72b:cf35%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver\n\tat org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)\n\tat java.util.Optional.orElseGet(Optional.java:267)\n\tat org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)\n\tat core.Common.getWebDriver(Common.java:37)\n\tat core.Common.open(Common.java:75)\n\tat core.SignUp.open(SignUp.java:16)\n\tat core.AllureReportTest.setUp(AllureReportTest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\n\tat org.testng.TestRunner.run(TestRunner.java:591)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\n\tat org.testng.TestNG.run(TestNG.java:1000)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\n",
+    "steps" : [ {
+      "name" : "Step [open browser]",
+      "time" : {
+        "start" : 1566948265715,
+        "stop" : 1566948265830,
+        "duration" : 115
+      },
+      "status" : "broken",
+      "statusMessage" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2620:0:1000:fd45:746f:9895:b72b:cf35%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver",
+      "statusTrace" : "org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2620:0:1000:fd45:746f:9895:b72b:cf35%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver\n\tat org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)\n\tat java.util.Optional.orElseGet(Optional.java:267)\n\tat org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)\n\tat core.Common.getWebDriver(Common.java:37)\n\tat core.Common.open(Common.java:75)\n\tat core.SignUp.open(SignUp.java:16)\n\tat core.AllureReportTest.setUp(AllureReportTest.java:77)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\n\tat org.testng.TestRunner.run(TestRunner.java:591)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\n\tat org.testng.TestNG.run(TestNG.java:1000)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDowm",
+    "time" : {
+      "start" : 1566948266039,
+      "stop" : 1566948266039,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ConfirmationTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "host",
+    "value" : "vaulin-macbookpro.roam.corp.google.com"
+  }, {
+    "name" : "thread",
+    "value" : "20073@vaulin-macbookpro.roam.corp.google.com.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cc8b467e57fe73ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566948124742,
+        "stop" : 1566948125787,
+        "duration" : 1045
+      }
+    }, {
+      "uid" : "3cea75d7edc5b12d",
+      "status" : "skipped",
+      "statusDetails" : "Method AllureReportTest.ConfirmationTest()[pri:2, instance:core.AllureReportTest@120f38e6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1566948041633,
+        "stop" : 1566948041633,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a699dbb07facfc03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566421758006,
+        "stop" : 1566421758923,
+        "duration" : 917
+      }
+    }, {
+      "uid" : "5df0f87895d9461b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420716519,
+        "stop" : 1566420717464,
+        "duration" : 945
+      }
+    }, {
+      "uid" : "efdf480a61c51137",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420156072,
+        "stop" : 1566420157024,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "71dc6e30d1d9db9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419889098,
+        "stop" : 1566419890030,
+        "duration" : 932
+      }
+    }, {
+      "uid" : "dd6d600665ad7e69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419520175,
+        "stop" : 1566419521119,
+        "duration" : 944
+      }
+    }, {
+      "uid" : "206ddd59b185ee72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419257752,
+        "stop" : 1566419258697,
+        "duration" : 945
+      }
+    }, {
+      "uid" : "f99575665cfc5471",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566418699402,
+        "stop" : 1566418700345,
+        "duration" : 943
+      }
+    }, {
+      "uid" : "1af70fccff3e0c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344771806,
+        "stop" : 1566344772815,
+        "duration" : 1009
+      }
+    }, {
+      "uid" : "eed01354795d9e6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344749484,
+        "stop" : 1566344750410,
+        "duration" : 926
+      }
+    }, {
+      "uid" : "25ae058a04ce0082",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344653467,
+        "stop" : 1566344654406,
+        "duration" : 939
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "3accd20486caf842",
+        "status" : "skipped",
+        "statusDetails" : "Method AllureReportTest.ConfirmationTest()[pri:2, instance:core.AllureReportTest@aec50a1] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1566948266037,
+          "stop" : 1566948266037,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "899cb939f3f23204",
+        "status" : "skipped",
+        "statusDetails" : "Method AllureReportTest.ConfirmationTest()[pri:2, instance:core.AllureReportTest@aec50a1] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1566948266037,
+          "stop" : 1566948266037,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "77057f72a2add11e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566948124742,
+          "stop" : 1566948125787,
+          "duration" : 1045
+        }
+      }, {
+        "uid" : "2ad9816392ce96a2",
+        "status" : "skipped",
+        "statusDetails" : "Method AllureReportTest.ConfirmationTest()[pri:2, instance:core.AllureReportTest@120f38e6] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1566948041633,
+          "stop" : 1566948041633,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "64b1d001347c8a05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566421758006,
+          "stop" : 1566421758923,
+          "duration" : 917
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "22caa5bf4205c3f7.json",
+  "parameterValues" : [ ]
+}

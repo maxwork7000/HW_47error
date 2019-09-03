@@ -1,0 +1,523 @@
+{
+  "uid" : "2d2e663ee3f3637f",
+  "name" : "SignUp Page Validating",
+  "fullName" : "core.AllureReportTest.SignUpTest",
+  "historyId" : "cc5d1fe6ea2d74c9a51f35faa60c78f9",
+  "time" : {
+    "start" : 1567218802268,
+    "stop" : 1567218813295,
+    "duration" : 11027
+  },
+  "description" : "SignUp Page: Elements Validation",
+  "descriptionHtml" : "<p>SignUp Page: Elements Validation</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1567218776075,
+      "stop" : 1567218799128,
+      "duration" : 23053
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [open browser]",
+      "time" : {
+        "start" : 1567218776097,
+        "stop" : 1567218799127,
+        "duration" : 23030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "SignUp Page: Elements Validation",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [set value] - [John]",
+      "time" : {
+        "start" : 1567218802274,
+        "stop" : 1567218802384,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.id: id_fname"
+      }, {
+        "name" : "value",
+        "value" : "John"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: John/Actual: John",
+      "time" : {
+        "start" : 1567218802437,
+        "stop" : 1567218802439,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "John"
+      }, {
+        "name" : "actual",
+        "value" : "John"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [set value] - [Smith]",
+      "time" : {
+        "start" : 1567218802439,
+        "stop" : 1567218802547,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.id: id_lname"
+      }, {
+        "name" : "value",
+        "value" : "Smith"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: Smith/Actual: Smith",
+      "time" : {
+        "start" : 1567218802597,
+        "stop" : 1567218802597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "Smith"
+      }, {
+        "name" : "actual",
+        "value" : "Smith"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [set value] - [john_smith@gmail.com]",
+      "time" : {
+        "start" : 1567218802597,
+        "stop" : 1567218802857,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.id: id_email"
+      }, {
+        "name" : "value",
+        "value" : "john_smith@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: john_smith@gmail.com/Actual: john_smith@gmail.com",
+      "time" : {
+        "start" : 1567218802900,
+        "stop" : 1567218802900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "john_smith@gmail.com"
+      }, {
+        "name" : "actual",
+        "value" : "john_smith@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [set value] - [415 555-1212]",
+      "time" : {
+        "start" : 1567218802900,
+        "stop" : 1567218803094,
+        "duration" : 194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.id: id_phone"
+      }, {
+        "name" : "value",
+        "value" : "415 555-1212"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: 415 555-1212/Actual: 415 555-1212",
+      "time" : {
+        "start" : 1567218803140,
+        "stop" : 1567218803140,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "415 555-1212"
+      }, {
+        "name" : "actual",
+        "value" : "415 555-1212"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDowm",
+    "time" : {
+      "start" : 1567218817054,
+      "stop" : 1567218817126,
+      "duration" : 72
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [close browser]",
+      "time" : {
+        "start" : 1567218817054,
+        "stop" : 1567218817126,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SignUpTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "host",
+    "value" : "vaulin-macbookpro.roam.corp.google.com"
+  }, {
+    "name" : "thread",
+    "value" : "67777@vaulin-macbookpro.roam.corp.google.com.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb149819a3cc087b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218642992,
+        "stop" : 1567218654080,
+        "duration" : 11088
+      }
+    }, {
+      "uid" : "f3eec1c811e4f986",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567206671460,
+        "stop" : 1567206671470,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "44ff1907da2405ea",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567181970513,
+        "stop" : 1567181970524,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "1392585d9d703df0",
+      "status" : "skipped",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: 'fe80:0:0:0:14e4:99dd:ddd:a8f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1567181931412,
+        "stop" : 1567181931416,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "fc615b1c21de6e02",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567181705096,
+        "stop" : 1567181705106,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "d965934c531fb09",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567181562339,
+        "stop" : 1567181562351,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "154ce8d432705028",
+      "status" : "skipped",
+      "statusDetails" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: 'fe80:0:0:0:14e4:99dd:ddd:a8f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver",
+      "time" : {
+        "start" : 1567181026929,
+        "stop" : 1567181026933,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "fd688234390742b4",
+      "status" : "skipped",
+      "statusDetails" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2620:0:1000:fd45:746f:9895:b72b:cf35%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver",
+      "time" : {
+        "start" : 1566948266029,
+        "stop" : 1566948266033,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "6c561bb93868aa2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566948123601,
+        "stop" : 1566948124651,
+        "duration" : 1050
+      }
+    }, {
+      "uid" : "f55f7ebf925aa0c6",
+      "status" : "skipped",
+      "statusDetails" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2620:0:1000:fd45:746f:9895:b72b:cf35%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver",
+      "time" : {
+        "start" : 1566948041625,
+        "stop" : 1566948041628,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "db9ccfc988b470a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566421757187,
+        "stop" : 1566421757900,
+        "duration" : 713
+      }
+    }, {
+      "uid" : "7a2d03244934b32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420715747,
+        "stop" : 1566420716421,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "69104b8e28fcfdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420155273,
+        "stop" : 1566420155963,
+        "duration" : 690
+      }
+    }, {
+      "uid" : "b3ce5b508a600819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419888323,
+        "stop" : 1566419889005,
+        "duration" : 682
+      }
+    }, {
+      "uid" : "8e8426885ada7d10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419519415,
+        "stop" : 1566419520080,
+        "duration" : 665
+      }
+    }, {
+      "uid" : "63dc53e6fe6ec843",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419256958,
+        "stop" : 1566419257645,
+        "duration" : 687
+      }
+    }, {
+      "uid" : "8d2063a2647fc0cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566418698618,
+        "stop" : 1566418699311,
+        "duration" : 693
+      }
+    }, {
+      "uid" : "a350cc6a68aaf008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344770851,
+        "stop" : 1566344771683,
+        "duration" : 832
+      }
+    }, {
+      "uid" : "b7581b29bb7e3be3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344748628,
+        "stop" : 1566344749376,
+        "duration" : 748
+      }
+    }, {
+      "uid" : "30994340c3bab894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344652653,
+        "stop" : 1566344653357,
+        "duration" : 704
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 7,
+        "passed" : 20,
+        "unknown" : 0,
+        "total" : 33
+      },
+      "items" : [ {
+        "uid" : "49c87cf8cc828fd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567218802268,
+          "stop" : 1567218813295,
+          "duration" : 11027
+        }
+      }, {
+        "uid" : "c40a524912d93ffd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567218802268,
+          "stop" : 1567218813295,
+          "duration" : 11027
+        }
+      }, {
+        "uid" : "6296210c3aea00f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567218802268,
+          "stop" : 1567218813295,
+          "duration" : 11027
+        }
+      }, {
+        "uid" : "e3ea1769293728f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567218802268,
+          "stop" : 1567218813295,
+          "duration" : 11027
+        }
+      }, {
+        "uid" : "17ef3cf0306171b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567218802268,
+          "stop" : 1567218813295,
+          "duration" : 11027
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d2e663ee3f3637f.json",
+  "parameterValues" : [ ]
+}

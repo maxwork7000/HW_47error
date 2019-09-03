@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: core.ExtentReportsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 4.895 s <<< FAILURE! - in core.ExtentReportsTest
+SignUpTest(core.ExtentReportsTest)  Time elapsed: 0.057 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the id is null.
+	at core.ExtentReportsTest.SignUpTest(ExtentReportsTest.java:43)
+

@@ -1,0 +1,328 @@
+{
+  "ed09dcfe5260b6528b061752f766a0cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 25,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 25
+    },
+    "items" : [ {
+      "uid" : "4431749e7e389ccf",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1567226996264,
+        "stop" : 1567226996264,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4d39bc415f897048",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@3dddefd8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1567225478966,
+        "stop" : 1567225478966,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7d627cbb36a967b",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@12bfd80d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1567225211935,
+        "stop" : 1567225211935,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6d6b37a72483ed0e",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@3dddefd8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1567219876523,
+        "stop" : 1567219876523,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f195ebd9d89b3256",
+      "status" : "skipped",
+      "statusDetails" : "Method ExtentReportsTest.ConfirmationTest()[pri:1, instance:core.ExtentReportsTest@3dddefd8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1567219237498,
+        "stop" : 1567219237498,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c1b5b0a9b8e27207ee6e1fe66a09cd1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 24,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 24
+    },
+    "items" : [ {
+      "uid" : "febf756bca470459",
+      "status" : "broken",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: 'fe80:0:0:0:14e4:99dd:ddd:a8f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1567181931319,
+        "stop" : 1567181931321,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4be4ae58a137338",
+      "status" : "broken",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: 'fe80:0:0:0:14e4:99dd:ddd:a8f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1567181931319,
+        "stop" : 1567181931321,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "aead77b316f1b424",
+      "status" : "broken",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: 'fe80:0:0:0:14e4:99dd:ddd:a8f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1567181931319,
+        "stop" : 1567181931321,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8a91a784b4538d8a",
+      "status" : "broken",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: 'fe80:0:0:0:14e4:99dd:ddd:a8f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1567181931319,
+        "stop" : 1567181931321,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4151dc5c366ba986",
+      "status" : "broken",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: 'fe80:0:0:0:14e4:99dd:ddd:a8f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1567181931319,
+        "stop" : 1567181931321,
+        "duration" : 2
+      }
+    } ]
+  },
+  "c6a5c35a3a1974d97f559033b0a31ee7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 14,
+      "skipped" : 11,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 25
+    },
+    "items" : [ {
+      "uid" : "c8cf08f3ce7a7366",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567226996065,
+        "stop" : 1567226996076,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "717ea0290f12681f",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567225478758,
+        "stop" : 1567225478776,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "eebe57a200a677d7",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567225211710,
+        "stop" : 1567225211722,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "52fb590bb992340",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567219876322,
+        "stop" : 1567219876334,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "ee0d85435561b909",
+      "status" : "broken",
+      "statusDetails" : "Cannot find elements when the id is null.",
+      "time" : {
+        "start" : 1567219237285,
+        "stop" : 1567219237298,
+        "duration" : 13
+      }
+    } ]
+  },
+  "61f6d5c6d244b4fab699a2a36a1e08ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 25,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 25
+    },
+    "items" : [ {
+      "uid" : "37e31c6806ed14c9",
+      "status" : "broken",
+      "statusDetails" : "java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43319\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2600:1700:b011:aaa0:0:0:0:600%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: SafariDriver",
+      "time" : {
+        "start" : 1567218708263,
+        "stop" : 1567218708264,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5479b44d95122355",
+      "status" : "broken",
+      "statusDetails" : "java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43319\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2600:1700:b011:aaa0:0:0:0:600%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: SafariDriver",
+      "time" : {
+        "start" : 1567218708263,
+        "stop" : 1567218708264,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "97377bea75a22ed7",
+      "status" : "broken",
+      "statusDetails" : "java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43319\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2600:1700:b011:aaa0:0:0:0:600%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: SafariDriver",
+      "time" : {
+        "start" : 1567218708263,
+        "stop" : 1567218708264,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6d736a0ffbcdaac8",
+      "status" : "broken",
+      "statusDetails" : "java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43319\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2600:1700:b011:aaa0:0:0:0:600%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: SafariDriver",
+      "time" : {
+        "start" : 1567218708263,
+        "stop" : 1567218708264,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6bdd05c7444f8a49",
+      "status" : "broken",
+      "statusDetails" : "java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43319\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2600:1700:b011:aaa0:0:0:0:600%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: SafariDriver",
+      "time" : {
+        "start" : 1567218708263,
+        "stop" : 1567218708264,
+        "duration" : 1
+      }
+    } ]
+  },
+  "866f8e658b6a7c28aa580d3973b941a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 13,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 35
+    },
+    "items" : [ {
+      "uid" : "3b043e303a61475a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218813389,
+        "stop" : 1567218817051,
+        "duration" : 3662
+      }
+    }, {
+      "uid" : "45f6dabcbe632cbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218813389,
+        "stop" : 1567218817051,
+        "duration" : 3662
+      }
+    }, {
+      "uid" : "6d6e07d5dd5a1ae5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218813389,
+        "stop" : 1567218817051,
+        "duration" : 3662
+      }
+    }, {
+      "uid" : "e02a9d992c5dae8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218813389,
+        "stop" : 1567218817051,
+        "duration" : 3662
+      }
+    }, {
+      "uid" : "bc9259387a4128d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218813389,
+        "stop" : 1567218817051,
+        "duration" : 3662
+      }
+    } ]
+  },
+  "cc5d1fe6ea2d74c9a51f35faa60c78f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 7,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 35
+    },
+    "items" : [ {
+      "uid" : "f81d32605df5e93b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218802268,
+        "stop" : 1567218813295,
+        "duration" : 11027
+      }
+    }, {
+      "uid" : "554b6b44e313a501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218802268,
+        "stop" : 1567218813295,
+        "duration" : 11027
+      }
+    }, {
+      "uid" : "2d2e663ee3f3637f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218802268,
+        "stop" : 1567218813295,
+        "duration" : 11027
+      }
+    }, {
+      "uid" : "49c87cf8cc828fd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218802268,
+        "stop" : 1567218813295,
+        "duration" : 11027
+      }
+    }, {
+      "uid" : "c40a524912d93ffd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567218802268,
+        "stop" : 1567218813295,
+        "duration" : 11027
+      }
+    } ]
+  }
+}

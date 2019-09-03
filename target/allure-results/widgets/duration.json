@@ -1,0 +1,61 @@
+[ {
+  "uid" : "3b043e303a61475a",
+  "name" : "Confirmation Page Validating",
+  "time" : {
+    "start" : 1567218813389,
+    "stop" : 1567218817051,
+    "duration" : 3662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8cf08f3ce7a7366",
+  "name" : "SignUpTest",
+  "time" : {
+    "start" : 1567226996065,
+    "stop" : 1567226996076,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "37e31c6806ed14c9",
+  "name" : "beforeClass",
+  "time" : {
+    "start" : 1567218708263,
+    "stop" : 1567218708264,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "febf756bca470459",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1567181931319,
+    "stop" : 1567181931321,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4431749e7e389ccf",
+  "name" : "ConfirmationTest",
+  "time" : {
+    "start" : 1567226996264,
+    "stop" : 1567226996264,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f81d32605df5e93b",
+  "name" : "SignUp Page Validating",
+  "time" : {
+    "start" : 1567218802268,
+    "stop" : 1567218813295,
+    "duration" : 11027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

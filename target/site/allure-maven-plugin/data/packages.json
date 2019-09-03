@@ -1,0 +1,89 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "core",
+    "children" : [ {
+      "name" : "AllureReportTest",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "e0063b6c7f5f67c6",
+        "parentUid" : "4920edc1449585c1833232c2f3cf05f3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567181931319,
+          "stop" : 1567181931321,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "SignUpTest",
+        "uid" : "d7e81170dd2ca093",
+        "parentUid" : "4920edc1449585c1833232c2f3cf05f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567218802268,
+          "stop" : 1567218813295,
+          "duration" : 11027
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "ConfirmationTest",
+        "uid" : "e0f7c09a44111bf9",
+        "parentUid" : "4920edc1449585c1833232c2f3cf05f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567218813389,
+          "stop" : 1567218817051,
+          "duration" : 3662
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4920edc1449585c1833232c2f3cf05f3"
+    }, {
+      "name" : "ExtentReportsTest",
+      "children" : [ {
+        "name" : "beforeClass",
+        "uid" : "61ae5d8fbdceb964",
+        "parentUid" : "db640bc1bb891d149f462805162f3692",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567218708263,
+          "stop" : 1567218708264,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "SignUpTest",
+        "uid" : "de481a486b0027ec",
+        "parentUid" : "db640bc1bb891d149f462805162f3692",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567227082963,
+          "stop" : 1567227082982,
+          "duration" : 19
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "ConfirmationTest",
+        "uid" : "e51a620c26aa0f95",
+        "parentUid" : "db640bc1bb891d149f462805162f3692",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567227083202,
+          "stop" : 1567227083202,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db640bc1bb891d149f462805162f3692"
+    } ],
+    "uid" : "ef41485628a0bddd4539778c84f425dd"
+  } ]
+}

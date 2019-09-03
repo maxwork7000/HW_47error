@@ -1,0 +1,365 @@
+{
+  "uid" : "77057f72a2add11e",
+  "name" : "Confirmation Page Validating",
+  "fullName" : "core.AllureReportTest.ConfirmationTest",
+  "historyId" : "866f8e658b6a7c28aa580d3973b941a7",
+  "time" : {
+    "start" : 1566948124742,
+    "stop" : 1566948125787,
+    "duration" : 1045
+  },
+  "description" : "Confirmation: Elemets Validation",
+  "descriptionHtml" : "<p>Confirmation: Elemets Validation</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1566948120471,
+      "stop" : 1566948123550,
+      "duration" : 3079
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [open browser]",
+      "time" : {
+        "start" : 1566948120492,
+        "stop" : 1566948123548,
+        "duration" : 3056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Confirmation: Elemets Validation",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [validate element] - Expected: John/Actual: John",
+      "time" : {
+        "start" : 1566948125398,
+        "stop" : 1566948125398,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "John"
+      }, {
+        "name" : "actual",
+        "value" : "John"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: Smith/Actual: Smith",
+      "time" : {
+        "start" : 1566948125533,
+        "stop" : 1566948125533,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "Smith"
+      }, {
+        "name" : "actual",
+        "value" : "Smith"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: john_smith@gmail.com/Actual: john_smith@gmail.com",
+      "time" : {
+        "start" : 1566948125651,
+        "stop" : 1566948125651,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "john_smith@gmail.com"
+      }, {
+        "name" : "actual",
+        "value" : "john_smith@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: 415 555-1212/Actual: 415 555-1212",
+      "time" : {
+        "start" : 1566948125786,
+        "stop" : 1566948125786,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "415 555-1212"
+      }, {
+        "name" : "actual",
+        "value" : "415 555-1212"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDowm",
+    "time" : {
+      "start" : 1566948125789,
+      "stop" : 1566948125879,
+      "duration" : 90
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [close browser]",
+      "time" : {
+        "start" : 1566948125789,
+        "stop" : 1566948125879,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ConfirmationTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "host",
+    "value" : "vaulin-macbookpro.roam.corp.google.com"
+  }, {
+    "name" : "thread",
+    "value" : "19898@vaulin-macbookpro.roam.corp.google.com.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a4469ca4b10d8d2",
+      "status" : "skipped",
+      "statusDetails" : "Method AllureReportTest.ConfirmationTest()[pri:2, instance:core.AllureReportTest@120f38e6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1566948041633,
+        "stop" : 1566948041633,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b8b8ff2fb03d5847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566421758006,
+        "stop" : 1566421758923,
+        "duration" : 917
+      }
+    }, {
+      "uid" : "d3002999d9e55f92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420716519,
+        "stop" : 1566420717464,
+        "duration" : 945
+      }
+    }, {
+      "uid" : "8bc3f653b6048b5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420156072,
+        "stop" : 1566420157024,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "2210d4d8f002a119",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419889098,
+        "stop" : 1566419890030,
+        "duration" : 932
+      }
+    }, {
+      "uid" : "7c9420c772e38bae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419520175,
+        "stop" : 1566419521119,
+        "duration" : 944
+      }
+    }, {
+      "uid" : "7aa607ce727b64c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419257752,
+        "stop" : 1566419258697,
+        "duration" : 945
+      }
+    }, {
+      "uid" : "b4ce609f289f4248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566418699402,
+        "stop" : 1566418700345,
+        "duration" : 943
+      }
+    }, {
+      "uid" : "2da4235a70c5d9c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344771806,
+        "stop" : 1566344772815,
+        "duration" : 1009
+      }
+    }, {
+      "uid" : "5fb42a32ed209804",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344749484,
+        "stop" : 1566344750410,
+        "duration" : 926
+      }
+    }, {
+      "uid" : "6ff115e9a2e1ac20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344653467,
+        "stop" : 1566344654406,
+        "duration" : 939
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "2ad9816392ce96a2",
+        "status" : "skipped",
+        "statusDetails" : "Method AllureReportTest.ConfirmationTest()[pri:2, instance:core.AllureReportTest@120f38e6] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1566948041633,
+          "stop" : 1566948041633,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "64b1d001347c8a05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566421758006,
+          "stop" : 1566421758923,
+          "duration" : 917
+        }
+      }, {
+        "uid" : "4ed2606b04bb4515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566421758006,
+          "stop" : 1566421758923,
+          "duration" : 917
+        }
+      }, {
+        "uid" : "b8b2f17de9c96ad2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566420716519,
+          "stop" : 1566420717464,
+          "duration" : 945
+        }
+      }, {
+        "uid" : "d91858d403367a1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566420156072,
+          "stop" : 1566420157024,
+          "duration" : 952
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77057f72a2add11e.json",
+  "parameterValues" : [ ]
+}

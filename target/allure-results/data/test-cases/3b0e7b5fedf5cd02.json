@@ -1,0 +1,449 @@
+{
+  "uid" : "3b0e7b5fedf5cd02",
+  "name" : "SignUp Page Validating",
+  "fullName" : "core.AllureReportTest.SignUpTest",
+  "historyId" : "cc5d1fe6ea2d74c9a51f35faa60c78f9",
+  "time" : {
+    "start" : 1566948123601,
+    "stop" : 1566948124651,
+    "duration" : 1050
+  },
+  "description" : "SignUp Page: Elemets Validation",
+  "descriptionHtml" : "<p>SignUp Page: Elemets Validation</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1566948120471,
+      "stop" : 1566948123550,
+      "duration" : 3079
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [open browser]",
+      "time" : {
+        "start" : 1566948120492,
+        "stop" : 1566948123548,
+        "duration" : 3056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "SignUp Page: Elemets Validation",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [set value] - [John]",
+      "time" : {
+        "start" : 1566948123607,
+        "stop" : 1566948123726,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.id: id_fname"
+      }, {
+        "name" : "value",
+        "value" : "John"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: John/Actual: John",
+      "time" : {
+        "start" : 1566948123794,
+        "stop" : 1566948123797,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "John"
+      }, {
+        "name" : "actual",
+        "value" : "John"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [set value] - [Smith]",
+      "time" : {
+        "start" : 1566948123797,
+        "stop" : 1566948123942,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.id: id_lname"
+      }, {
+        "name" : "value",
+        "value" : "Smith"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: Smith/Actual: Smith",
+      "time" : {
+        "start" : 1566948124003,
+        "stop" : 1566948124003,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "Smith"
+      }, {
+        "name" : "actual",
+        "value" : "Smith"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [set value] - [john_smith@gmail.com]",
+      "time" : {
+        "start" : 1566948124003,
+        "stop" : 1566948124278,
+        "duration" : 275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.id: id_email"
+      }, {
+        "name" : "value",
+        "value" : "john_smith@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: john_smith@gmail.com/Actual: john_smith@gmail.com",
+      "time" : {
+        "start" : 1566948124342,
+        "stop" : 1566948124342,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "john_smith@gmail.com"
+      }, {
+        "name" : "actual",
+        "value" : "john_smith@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [set value] - [415 555-1212]",
+      "time" : {
+        "start" : 1566948124343,
+        "stop" : 1566948124531,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.id: id_phone"
+      }, {
+        "name" : "value",
+        "value" : "415 555-1212"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: 415 555-1212/Actual: 415 555-1212",
+      "time" : {
+        "start" : 1566948124596,
+        "stop" : 1566948124596,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "415 555-1212"
+      }, {
+        "name" : "actual",
+        "value" : "415 555-1212"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDowm",
+    "time" : {
+      "start" : 1566948125789,
+      "stop" : 1566948125879,
+      "duration" : 90
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [close browser]",
+      "time" : {
+        "start" : 1566948125789,
+        "stop" : 1566948125879,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SignUpTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "host",
+    "value" : "vaulin-macbookpro.roam.corp.google.com"
+  }, {
+    "name" : "thread",
+    "value" : "19898@vaulin-macbookpro.roam.corp.google.com.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2b91db4c20a1f077",
+      "status" : "skipped",
+      "statusDetails" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2620:0:1000:fd45:746f:9895:b72b:cf35%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver",
+      "time" : {
+        "start" : 1566948041625,
+        "stop" : 1566948041628,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "f023ba7c883b9215",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566421757187,
+        "stop" : 1566421757900,
+        "duration" : 713
+      }
+    }, {
+      "uid" : "79b39de354c061ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420715747,
+        "stop" : 1566420716421,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "e6ed241ac86466fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420155273,
+        "stop" : 1566420155963,
+        "duration" : 690
+      }
+    }, {
+      "uid" : "663988790e3d17b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419888323,
+        "stop" : 1566419889005,
+        "duration" : 682
+      }
+    }, {
+      "uid" : "453cd1110d6bb583",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419519415,
+        "stop" : 1566419520080,
+        "duration" : 665
+      }
+    }, {
+      "uid" : "cc6172934f29b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419256958,
+        "stop" : 1566419257645,
+        "duration" : 687
+      }
+    }, {
+      "uid" : "eda11a98e0b8416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566418698618,
+        "stop" : 1566418699311,
+        "duration" : 693
+      }
+    }, {
+      "uid" : "ae49827eab47141e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344770851,
+        "stop" : 1566344771683,
+        "duration" : 832
+      }
+    }, {
+      "uid" : "ba836ac43132f507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344748628,
+        "stop" : 1566344749376,
+        "duration" : 748
+      }
+    }, {
+      "uid" : "1ee5f5f0e6f4d870",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344652653,
+        "stop" : 1566344653357,
+        "duration" : 704
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "b7210b301d8c8988",
+        "status" : "skipped",
+        "statusDetails" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'vaulin-macbookpro.roam.corp.google.com', ip: '2620:0:1000:fd45:746f:9895:b72b:cf35%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'\nDriver info: driver.version: FirefoxDriver",
+        "time" : {
+          "start" : 1566948041625,
+          "stop" : 1566948041628,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "3605c331fe05bff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566421757187,
+          "stop" : 1566421757900,
+          "duration" : 713
+        }
+      }, {
+        "uid" : "470b40cc8bedd0a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566421757187,
+          "stop" : 1566421757900,
+          "duration" : 713
+        }
+      }, {
+        "uid" : "9e686f456440b4a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566420715747,
+          "stop" : 1566420716421,
+          "duration" : 674
+        }
+      }, {
+        "uid" : "db750f6fde30492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566420155273,
+          "stop" : 1566420155963,
+          "duration" : 690
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3b0e7b5fedf5cd02.json",
+  "parameterValues" : [ ]
+}

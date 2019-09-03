@@ -1,0 +1,347 @@
+{
+  "uid" : "64b1d001347c8a05",
+  "name" : "Confirmation Page Validating",
+  "fullName" : "core.AllureReportTest.ConfirmationTest",
+  "historyId" : "866f8e658b6a7c28aa580d3973b941a7",
+  "time" : {
+    "start" : 1566421758006,
+    "stop" : 1566421758923,
+    "duration" : 917
+  },
+  "description" : "Confirmation: Elemets Validation",
+  "descriptionHtml" : "<p>Confirmation: Elemets Validation</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1566421751127,
+      "stop" : 1566421757129,
+      "duration" : 6002
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [open browser]",
+      "time" : {
+        "start" : 1566421751151,
+        "stop" : 1566421757127,
+        "duration" : 5976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Confirmation: Elemets Validation",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [validate element] - Expected: John/Actual: John",
+      "time" : {
+        "start" : 1566421758645,
+        "stop" : 1566421758645,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "John"
+      }, {
+        "name" : "actual",
+        "value" : "John"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: Smith/Actual: Smith",
+      "time" : {
+        "start" : 1566421758746,
+        "stop" : 1566421758746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "Smith"
+      }, {
+        "name" : "actual",
+        "value" : "Smith"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: john_smith@gmail.com/Actual: john_smith@gmail.com",
+      "time" : {
+        "start" : 1566421758833,
+        "stop" : 1566421758833,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "john_smith@gmail.com"
+      }, {
+        "name" : "actual",
+        "value" : "john_smith@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Step [validate element] - Expected: 415 555-1212/Actual: 415 555-1212",
+      "time" : {
+        "start" : 1566421758923,
+        "stop" : 1566421758923,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "415 555-1212"
+      }, {
+        "name" : "actual",
+        "value" : "415 555-1212"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDowm",
+    "time" : {
+      "start" : 1566421758925,
+      "stop" : 1566421759538,
+      "duration" : 613
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step [close browser]",
+      "time" : {
+        "start" : 1566421758925,
+        "stop" : 1566421759538,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ConfirmationTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HW_47"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Validation"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.AllureReportTest"
+  }, {
+    "name" : "host",
+    "value" : "L-C02V267CHTD6"
+  }, {
+    "name" : "thread",
+    "value" : "55621@L-C02V267CHTD6.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "11af5fee7ad0aa8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420716519,
+        "stop" : 1566420717464,
+        "duration" : 945
+      }
+    }, {
+      "uid" : "74208b0ce0b1fd33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566420156072,
+        "stop" : 1566420157024,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "4fce35964119f07b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419889098,
+        "stop" : 1566419890030,
+        "duration" : 932
+      }
+    }, {
+      "uid" : "c5f25054327fdfb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419520175,
+        "stop" : 1566419521119,
+        "duration" : 944
+      }
+    }, {
+      "uid" : "189473260184ae95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566419257752,
+        "stop" : 1566419258697,
+        "duration" : 945
+      }
+    }, {
+      "uid" : "6284a31b833575fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566418699402,
+        "stop" : 1566418700345,
+        "duration" : 943
+      }
+    }, {
+      "uid" : "787615083a0c22d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344771806,
+        "stop" : 1566344772815,
+        "duration" : 1009
+      }
+    }, {
+      "uid" : "ae16a4a1cd4bfa00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344749484,
+        "stop" : 1566344750410,
+        "duration" : 926
+      }
+    }, {
+      "uid" : "c604bb212c371c5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566344653467,
+        "stop" : 1566344654406,
+        "duration" : 939
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "4ed2606b04bb4515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566421758006,
+          "stop" : 1566421758923,
+          "duration" : 917
+        }
+      }, {
+        "uid" : "b8b2f17de9c96ad2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566420716519,
+          "stop" : 1566420717464,
+          "duration" : 945
+        }
+      }, {
+        "uid" : "d91858d403367a1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566420156072,
+          "stop" : 1566420157024,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "37ed03e885d14fbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566419889098,
+          "stop" : 1566419890030,
+          "duration" : 932
+        }
+      }, {
+        "uid" : "cfea61deb54d7742",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566419520175,
+          "stop" : 1566419521119,
+          "duration" : 944
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "64b1d001347c8a05.json",
+  "parameterValues" : [ ]
+}
